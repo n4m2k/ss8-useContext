@@ -1,0 +1,90 @@
+.header{
+    width: 100%;
+    background-color: rgb(215, 211, 211);
+    display: flex;
+    justify-content: space-around;
+    height: 55px;
+
+}
+.mindx{
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 5px;
+    line-height:42px
+}
+.login{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(162, 154, 189);
+    margin-top: 5px;
+    line-height:42px;
+    cursor: pointer;
+    
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 200px;
+    border-radius: 8px;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 35%;
+    border: 1px solid #ccc;
+}
+.header-form{
+    border-bottom: 1px solid rgb(47, 43, 43);
+    width: 100%;
+    text-align: center;
+    height: 34px;
+    padding-top: 8px;
+    font-size: 21px;
+    font-weight: 600;
+    background-color: #ccc;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.body-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.text-input{
+    width: 350px;
+    height: 25px;
+    border-radius: 6px;
+    border: none;
+    border: solid 1px rgb(82, 73, 73);
+}
+.btn-input{
+    margin-left: 33%;
+    width: 100px;
+    margin-top: 30px;
+    background-color: rgb(115, 115, 234);
+    border-radius: 10px;
+    color: aliceblue;
+    height: 30px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    background-color: #ccc;
+    height: 40px;
+    margin-top: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer select{
+    border-radius: 4px;
+}
+.hello{
+    font-size: 40px;
+    margin-top: 44px;
+    font-weight: 700;
+    color: rgb(231, 240, 237);
+}
